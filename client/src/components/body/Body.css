@@ -1,25 +1,63 @@
-.convrsSetWrap{
-    position: absolute;
-    top: 50px;
+.convrsSet{
+    margin: 5px;
+}
+
+.chat{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.text-lt{
+    text-align: left;
+}
+
+.text-rt{
+    text-align: right;
+}
+
+.float-lt{
+    float: left;
+}
+
+.ques{
+    background: #d5f2ec;;
+}
+
+.ans{
+    background: #c6ffd7;
+}
+
+.float-rt{
+    float: right;
+}
+
+.clear{
+    clear: both;
 }
 
 .content{
     position: relative;
     overflow: scroll;
-    background: aliceblue;
-    height: calc(100vh - 100px)
+    background: white;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-flow: column-reverse;
+    box-shadow: 0 1px 10px #c3c3c3;
 }
 
 .content-wrp{
     position: relative;
-    width: 960px;
+    max-width: 960px;
     margin: auto;
 }
 
 .input-wrp{
     position: fixed;
     bottom: 10px;
-    width: 960px;
+    width: 100%;
+    max-width: 960px;
     border: 1px solid;
     margin: 0px;
     padding: 5px 0px;
