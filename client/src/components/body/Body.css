@@ -41,33 +41,33 @@
     position: relative;
     overflow: scroll;
     background: white;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 150px);
     display: flex;
     flex-flow: column-reverse;
-    box-shadow: 0 1px 10px #c3c3c3;
+    border: 1px solid #e0e0e0;
 }
 
 .content-wrp{
     position: relative;
     max-width: 960px;
     margin: auto;
+    background: white;
 }
 
 .input-wrp{
     position: fixed;
-    bottom: 10px;
+    bottom: 20px;
     width: 100%;
     max-width: 960px;
-    border: 1px solid;
     margin: 0px;
-    padding: 5px 0px;
+    padding: 10px 0px;
     height: 16px;
+    background: white;
+    border: 2px solid #254b6e;
 }
 
 .input-usr{
-    width: 100%;
-    resize: unset;
-    padding: 0px;
+    width: 98%;
     margin: 0px;
     font-size: 16px;
     outline: none;

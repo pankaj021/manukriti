@@ -6,5 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+router.post('/query', (req, res, next) => {
+  res.send({
+    rep : "Got Answer!!!!!!"
+  })
+})
+
 
 module.exports = router;
