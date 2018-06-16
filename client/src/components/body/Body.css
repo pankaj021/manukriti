@@ -1,0 +1,46 @@
+.convrsSetWrap{
+    position: absolute;
+    top: 50px;
+}
+
+.content{
+    position: relative;
+    overflow: scroll;
+    background: aliceblue;
+    height: calc(100vh - 100px)
+}
+
+.content-wrp{
+    position: relative;
+    width: 960px;
+    margin: auto;
+}
+
+.input-wrp{
+    position: fixed;
+    bottom: 10px;
+    width: 960px;
+    border: 1px solid;
+    margin: 0px;
+    padding: 5px 0px;
+    height: 16px;
+}
+
+.input-usr{
+    width: 100%;
+    resize: unset;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    user-select: all;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #2c2d30;
+    cursor: text;
+    tab-size: 8;
+    -webkit-font-smoothing: antialiased;
+    height: 16px;
+}
